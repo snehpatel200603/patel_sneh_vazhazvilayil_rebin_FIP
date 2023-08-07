@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/grid.css">
+  <title>Sneh Patel homework-3</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ <!-- this is the code for the header bar with the and teh navigation menu-->
+
+    <header class="grid-con">
+        <h1 class="hidden">logo and navigation bar</h1>
+            <img class="col-span-3 m-col-span-1 l-col-span-2 logobox" src="img/logo-1.png" alt="logo image">
+        <nav id="navbar" class="col-start-4 col-end-5 m-col-span-11 l-col-span-10 tablet desktop">
+            <h2 class="hidden">Main Mobile Nav bar</h2>
+           <a href="index.html">HOME</a>
+           <a href="product.html">PRODUCT</a>
+           <a href="#">ABOUT-US</a>
+           <a href="#">CONTACT-US</a>
+           <a href="#">STORE LOCATOR</a>
+        </nav>
+
+        <nav id="navbar" class="col-start-4 mobile">
+            <h2 class="hidden">Main Mobile Nav bar</h2>
+            <button id="hamburger-button" class="hamburger-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+            <div id="mobile-menu" class="mobile-menu">
+              <a href="#">HOME</a>
+              <a href="product.html">PRODUCT</a>
+              <a href="#">ABOUT-US</a>
+              <a href="contact.html">CONTACT-US</a>
+              <a href="#">STORE LOCATOR</a>
+            </div>
+          </nav>
+    </header>
+
+    <section class=" grid-con contact-section">
+        <div class=" col-span-4 m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7 contact-form ">
+          <h2>Contact Us</h2>
+          <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class=" col-span-4 m-col-start-8 m-col-end-12 l-col-start-8 l-col-end-12 company-details">
+          <h2>Contact Us</h2>
+          <p>for further querries and feedback.</p>
+        </div>
+      </section>
+
+    </section>
+
+
+    <footer class="grid-con">
+        <h2 class="hidden">this is the footer of this website </h2>
+        <nav id="navbar" class="col-start-4 col-end-5 m-col-span-11 l-col-span-10 tablet desktop">
+            <h2 class="hidden">Main Mobile Nav bar</h2>
+           <a href="index.html">HOME</a>
+           <a href="#">ABOUT-US</a>
+           <a href="#">CONTACT-US</a>
+           <a href="#">STORE LOCATOR</a>
+           <a href="product.html">PRODUCT</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
